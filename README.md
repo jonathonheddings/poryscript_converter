@@ -9,3 +9,11 @@ Once the bash file is in your pokeemerald directory, simply navigate to your fol
 `./inc_to_pory`
 
 And it will run the shell script and convert all your files. You may need to give it permissions with chmod 777 inc_to_pory if it doesn't work at first and make sure its in the right directory. 
+
+-----
+
+Making Changes
+
+If you want to get rid of the console output, remove the line that says 'echo "Converting....." 
+
+If you want to call the command from other places change the directory in the for loop to match the directory you want to choose. For example if you wanted to run it from outside the decomp you would change data/maps/* to pokeemerald/data/maps/*
