@@ -1,4 +1,4 @@
-# .inc to .pory Converter
+# scripts.inc to scripts.pory converter
 
 --------
 ```
